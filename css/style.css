@@ -1,0 +1,226 @@
+body{
+	 margin: 0px;
+     padding: 0px;
+     color:#000080;
+    }
+hr {
+	margin-top: 5px;
+    }
+
+.fa-facebook-official
+    {
+	padding: 5px;
+	border: 2px solid #3B5998;
+	border-radius: 50%;
+	margin-right: 10px;
+	color: #3B5998;
+    }
+.fa-google
+   {
+   	padding: 5px;
+	border: 2px solid #6C9EF0;
+	border-radius: 50%;
+    margin-right: 10px;
+    color: #6C9EF0;
+    }
+.fa-pinterest-p
+    {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+	border: 2px solid red;
+	border-radius: 50%;
+    }
+ .navbar-inverse
+    {
+    
+    }
+ul
+    {
+      list-style-type: none;
+    }
+li  {
+	 display: inline;
+    }
+a   {
+	text-decoration: none;
+	color: #000080;
+    }
+.xy
+    {
+    padding-top: 15px;
+    margin-top: 15px;
+  	margin-right: 31px;
+    font-size: 18px;
+    }
+.footme
+    {
+      background-color: 
+      #EFEFEF;
+    }
+.footbg
+    { background-color: 
+      white;
+    }
+.sbg
+    {
+      background-color: 
+      #EFEFEF;
+    }
+.cbg
+    { background-color: 
+      white;
+    }
+.caret{
+     }
+.well{background-color: white;
+border-radius: 0px;}
+.textar
+      {
+      	width: 250px;
+      	/* it should be changed */
+      }
+.ffo  {
+	   margin-left: 59px;
+	  }
+a{text-decoration: none;}
+.yoyo{margin-top:-40px;}
+.imghospitality{margin-top: -10px;}
+.forarrow{height: 140px;}
+.fa-arrow-up{position: relative;
+bottom: 76px;
+right: -620px;
+padding: 5px;
+border: 2px solid;
+background-color: white;}
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/*for servies part*/
+@media only screen and (max-width: 500px) {
+  .servicesimg {margin-left: 60px;}
+  .navbar-brand > img {
+  
+    margin-top: -8px;
+
+}
+.gfq{text-align: center;}
+}
+/*for Image Gallery Start*/
+.pup
+    {
+        width: 100%; height: 100%;
+        background: #666;
+        opacity: 0.7;
+        position: fixed;
+        top: 0px; left: 0px;
+        z-index: 111;
+        display: none;
+    }
+    .viewer{
+        background: #666; padding: 12px;
+        position: fixed; z-index: 222;
+        text-align: center;
+        display: none;
+    }
+    #nav{
+        display: none;
+        background:red;
+        z-index: 333;
+        color: #FFF;
+    }
+    /*for Image Gallery End*/
