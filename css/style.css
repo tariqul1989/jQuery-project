@@ -70,17 +70,13 @@ a   {
     }
 .cbg
     { background-color: 
-      white;
+      white; 
     }
-.caret{
-     }
+.marginbottom{}
+
 .well{background-color: white;
 border-radius: 0px;}
-.textar
-      {
-      	width: 250px;
-      	/* it should be changed */
-      }
+
 .ffo  {
 	   margin-left: 59px;
 	  }
@@ -192,7 +188,7 @@ background-color: white;}
 
 /*for servies part*/
 @media only screen and (max-width: 500px) {
-  .servicesimg {margin-left: 60px;}
+ 
   .navbar-brand > img {
   
     margin-top: -8px;
@@ -201,26 +197,14 @@ background-color: white;}
 .gfq{text-align: center;}
 }
 /*for Image Gallery Start*/
-.pup
-    {
-        width: 100%; height: 100%;
-        background: #666;
-        opacity: 0.7;
-        position: fixed;
-        top: 0px; left: 0px;
-        z-index: 111;
-        display: none;
-    }
-    .viewer{
-        background: #666; padding: 12px;
-        position: fixed; z-index: 222;
-        text-align: center;
-        display: none;
-    }
-    #nav{
-        display: none;
-        background:red;
-        z-index: 333;
-        color: #FFF;
-    }
+/*for Image Gallery Start*/
+.small-images a, .project-des a {
+    display:inline-block
+}
+.small-images .selected {
+    border:1px solid red
+}
+#next{float: right;}
+#prev{float: right;}
+/*for Image Gallery End*/
     /*for Image Gallery End*/
